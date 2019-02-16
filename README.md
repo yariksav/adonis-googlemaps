@@ -1,18 +1,10 @@
-# Adonis Googlemaps
+# Adonis Google Maps
 
 This repo is a Client for Google Maps Services from AdonisJs framework
 
 [![NPM Version][npm-image]][npm-url]
 
-## What's in the box?
-
-This repo contains following providers.
-
-1. Consistent API to send smses
-2. Support for multiple drivers include **twilio.com**,**plivo.com**, **smsapi.com**,**smsfly.ua**,**mobizon** etc.
-3. API to add your own drivers
-
-[Read documentation](https://github.com/yariksav/adonis-smser/blob/master/instructions.md)
+[Read documentation](https://github.com/yariksav/adonis-googlemaps/blob/master/instructions.md)
 
 
 ## Setup
