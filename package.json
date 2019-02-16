@@ -1,0 +1,30 @@
+{
+  "name": "adonis-googlemaps",
+  "version": "0.0.1",
+  "description": "Adonis Client for Google Maps Services",
+  "main": "src/index.js",
+  "scripts": {
+    "copy": "bash build/copy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yariksav/adonis-googlemaps.git"
+  },
+  "keywords": [
+    "adonis",
+    "aodnisjs",
+    "google",
+    "googlemaps",
+    "maps"
+  ],
+  "author": "Yaroslav Savaryn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yariksav/adonis-googlemaps/issues"
+  },
+  "homepage": "https://github.com/yariksav/adonis-googlemaps#readme",
+  "dependencies": {
+    "@google/maps": "^0.5.5"
+  }
+}
