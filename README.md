@@ -4,7 +4,10 @@ This repo is a Client for Google Maps Services from AdonisJs framework
 
 [![NPM Version][npm-image]][npm-url]
 
-[Read documentation](https://github.com/yariksav/adonis-googlemaps/blob/master/instructions.md)
+> Note: This package uses [@google/maps](https://www.npmjs.com/package/@google/maps) 
+
+[Read installation documentation](https://github.com/yariksav/adonis-googlemaps/blob/master/instructions.md)
+
 
 
 ## Setup
