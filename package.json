@@ -1,6 +1,6 @@
 {
   "name": "adonis-googlemaps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adonis Client for Google Maps Services",
   "main": "src/index.js",
   "scripts": {
