@@ -86,7 +86,7 @@ class GoogleMaps {
     return this._proxyHandler
   }
 
-  async plasesPhotoUrls (options = {}) {
+  async placesPhotoUrls (options = {}) {
     const place = await this.place({
       placeid: options.place_id,
       fields: [ 'photo' ]
@@ -97,7 +97,7 @@ class GoogleMaps {
     }
 
     let photos = (place.result.photos || []).slice(0, options.limit || 5).map(item => item.photo_reference)
-    return this.parsePlacePhotoUrls(photos, options)
+    return this.parsePhotoReferences(photos, options)
   }
 
   async parsePhotoReferences (references, options = {}) {
